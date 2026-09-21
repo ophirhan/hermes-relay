@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "capabilities": [
+    "credential_pools",
+    "structured_balances",
+    "opencode_go",
+    "supergrok"
+  ],
+  "providers": [
+    {
+      "id": "openai-codex",
+      "display_name": "Codex",
+      "status": "not_configured",
+      "windows": []
+    },
+    {
+      "id": "nous",
+      "display_name": "Nous",
+      "status": "not_configured",
+      "windows": []
+    },
+    {
+      "id": "opencode-go",
+      "display_name": "OpenCode Go",
+      "status": "unavailable",
+      "windows": []
+    },
+    {
+      "id": "supergrok",
+      "display_name": "SuperGrok",
+      "status": "available",
+      "windows": [
+        {
+          "id": "period",
+          "label": "Weekly",
+          "used_percent": 7.0,
+          "reset_at": "2026-09-27T08:34:12.348291+00:00"
+        },
+        {
+          "id": "product_grok_build",
+          "label": "Grok Build",
+          "used_percent": 7.0,
+          "reset_at": "2026-09-27T08:34:12.348291+00:00"
+        }
+      ]
+    }
+  ]
+}
